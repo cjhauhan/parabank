@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parabank Capstone Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Parabank Tests(failed)">
+    <classes>
+      <class name="com.capstone.tests.TransferTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="transferFlow"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.capstone.tests.TransferTests -->
+    </classes>
+  </test> <!-- Parabank Tests(failed) -->
+</suite> <!-- Failed suite [Parabank Capstone Suite] -->
